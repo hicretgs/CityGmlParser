@@ -215,7 +215,7 @@ def ParseGmlFile(gmlFile):
                 print('KURAL TANIMSIZ: {0}'.format(_cityObjectGroup_gml_id))
 
     fileName = gmlFile.split('\\')[-1].replace('.gml', '.txt')
-    with io.open(r"D:\GITPROJECTS\Python Projects\CityGMLParser\INSERT-" + fileName, "w", encoding="utf-8") as f:
+    with io.open(r"D:\GITPROJECTS\CityGMLParser\INSERT-" + fileName, "w", encoding="utf-8") as f:
         f.write(CONTENT)
 
 
